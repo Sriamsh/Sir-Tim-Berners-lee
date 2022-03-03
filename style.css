@@ -1,0 +1,46 @@
+body{
+text-align: center;
+background:linear-gradient(#03fcb6 0% , #fc9003 100%);   
+}
+.profile{
+border-radius: 300px;
+    margin-top: 20px;
+}
+p{
+font-size: 25px;
+    font-family: cursive;
+    color: white;
+    max-width: 750px;
+    margin:25px auto;
+} 
+.menu{
+    list-style: none;
+    font-size: 25px;
+    top:30px;
+    right: 10px;
+    position: fixed;
+    color: crimson;
+}
+.links{
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+.links:hover{
+    background-color:cornsilk;
+    font-weight: bold;
+}
+h1,h2{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+}
